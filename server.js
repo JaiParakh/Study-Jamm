@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const passport = require('passport');
+const path = require('path');
 
 const app = express();
 
@@ -15,7 +16,7 @@ require('./config/passport')(passport);
 
 const db = require('./config/keys').mongoURI;
 
-mongoose.connect("mongodb://localhost:27017/StudyJamm");
+mongoose.connect(process.env.MONGDB_URI || "mongodb://localhost:27017/StudyJamm");
 
 mongoose.connection.on('connected', () => {
     console.log("Connected to mongodb");
@@ -23,6 +24,12 @@ mongoose.connection.on('connected', () => {
 const port = process.env.PORT || 5000;
 
 app.use('/user', user);
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static('client/build'));
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname,'client','build','index.html'));
+    })
+}
 
 app.listen(port, () => {
     console.log("Server is up");
