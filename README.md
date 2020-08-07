@@ -15,3 +15,8 @@
     <img src="https://simpleicons.org/icons/mongodb.svg" width="45px">&nbsp&nbsp&nbsp
     <img src="https://simpleicons.org/icons/openlayers.svg" width="45px">&nbsp&nbsp&nbsp
 </p>
+
+## Screenshots
+
+<img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-1.png">
+<img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-2.png">
