@@ -19,4 +19,5 @@
 ## Screenshots
 
 <img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-1.png">
+<br><hr><br>
 <img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-2.png">
