@@ -18,6 +18,6 @@
 
 ## Screenshots
 
-<img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-1.png">
-<br><hr><br>
-<img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-2.png">
+<img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-1.png" width="70%">
+<br><br>
+<img src="https://github.com/JaiParakh/Study-Jamm/blob/master/Study-Jamm-2.png" width="70%">
